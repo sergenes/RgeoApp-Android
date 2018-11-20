@@ -1,0 +1,9 @@
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true"/>
+    <!--<domain-config>-->
+        <!--<domain includeSubdomains="true">www.googleapis.com</domain>-->
+        <!--<trust-anchors>-->
+            <!--<certificates src="system" />-->
+        <!--</trust-anchors>-->
+    <!--</domain-config>-->
+</network-security-config>

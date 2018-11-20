@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GRgeoApp</string>
+    <string name="error_network_message">Something wrong with your Internet connection! Please check it out, and try
+        again later.
+    </string>
+    <string name="error_network_title">Internet Error</string>
+    <string name="error_network_button">OK</string>
+    <string name="get_civic_button">Get Civic</string>
+    <string name="number_outstanding_requests">Number Outstanding Requests:</string>
+</resources>

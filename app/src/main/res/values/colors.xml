@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorGrayOutline">#7f7f7f</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="outlineGreyColor">#7F000000</color>
+    <color name="reticleColor">#4f4f4f</color>
+    <color name="blackColor">#000000</color>
+</resources>

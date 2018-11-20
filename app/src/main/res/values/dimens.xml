@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="reticle_width">4px</dimen>
+    <dimen name="reticle_length">25dp</dimen>
+    <!--should be (pointer_cross_length * 2 + 10dp)-->
+    <dimen name="reticle_container_size">60dp</dimen>
+</resources>
