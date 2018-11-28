@@ -22,8 +22,8 @@ class MainViewModel : ViewModel(), GoogleAPIProtocol {
 
     private val PREFS_FILENAME = "com.nes.rgeo.ui.main.prefs"
 
-    // default value is Skyhook Boston office location
-    private val DEFAULT_CENTER = LatLng(42.352016, -71.048387)
+    // default value
+    private val DEFAULT_CENTER = LatLng(42.3165894,-71.0525886)
     private val DEFAULT_ZOOM = 15f
 
     private lateinit var googleMap: GoogleMap
@@ -97,7 +97,7 @@ class MainViewModel : ViewModel(), GoogleAPIProtocol {
     }
 
 
-    //SkyhookAPIProtocol callbacks
+    //GoogleAPIProtocol callbacks
     override fun updateRequestsCount(count: Int) {
         requestsCount.postValue(count)
     }
