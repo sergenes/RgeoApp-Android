@@ -50,13 +50,13 @@ class GoogleAPI private constructor(private var context: Context) {
         // we need the context to access request template from the strings
         fun with(context: Context): GoogleAPI {
             if (singleton == null) {
-                val var1 = GoogleAPI::class.java
-                synchronized(var1) {
+//                val var1 = GoogleAPI::class.java
+//                synchronized(var1) {
                     if (singleton == null) {
                         singleton = GoogleAPI(context)
                         singleton?.init()
                     }
-                }
+//                }
             }
             return singleton!!
         }
