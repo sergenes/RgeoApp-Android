@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import com.nes.rgeo.R
+import com.nes.rgeo.ui.main.FavoritesFragment
 import com.nes.rgeo.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
+
+//        showFavorites()
+
         ensurePermissions()
         if (savedInstanceState == null && checkPermission(Manifest.permission.ACCESS_FINE_LOCATION)) {
             supportFragmentManager.beginTransaction()
@@ -65,6 +69,16 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+    }
+
+    fun showFavorites(){
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.container, FavoritesFragment())
+            .commitNow()
+    }
+
+    fun plusNumbers(x:Int, y:Int):Int {
+        return (x+y)
     }
 
 }
